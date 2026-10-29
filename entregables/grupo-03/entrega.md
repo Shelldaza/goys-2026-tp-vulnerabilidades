@@ -1,14 +1,12 @@
 # Entregable — TP PHP2Shell / Node2Shell
 
-**Grupo:** _completar_ · **Fork del grupo:** _completar_ · **Rama:** `grupo-XX`
+**Grupo:** 03 · **Fork del grupo:** https://github.com/Shelldaza/goys-2026-tp-vulnerabilidades · **Rama:** `grupo-03`
 **Fecha:** jueves 29/10/2026
 
 | Integrante | Usuario de GitHub | Rol en el TP |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Facundo Daza | Shelldaza | Detección y caza; cambios/parche |
+| Irineo Hiriart | irineoHiriart215 | Inventario; contención/comunicación |
 
 > Roles sugeridos: inventario, cambios/parche, detección, contención/comunicación.
 > Todos tienen que poder explicar su parte y una parte ajena.

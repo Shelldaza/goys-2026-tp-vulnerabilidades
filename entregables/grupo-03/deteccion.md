@@ -6,7 +6,7 @@
 
 ## 1. Hipótesis de caza
 
-Entre las 09:42 y las 09:46 UTC del 27/10/2026, un posible atacante podría haber utilizado procesos de Apache, Node.js o Python para ejecutar shells, reconocer el sistema e intentar descargar archivos. Esperamos encontrar relaciones padre-hijo inusuales y correlacionar sus PID, argumentos y horarios.
+Entre las 09:42 y las 09:45 UTC del 27/10/2026, un posible atacante podría haber utilizado procesos de Apache, Node.js o Python para ejecutar shells, reconocer el sistema e intentar descargar archivos. Esperamos encontrar relaciones padre-hijo inusuales y correlacionar sus PID, argumentos y horarios.
 
 ## 2. Hallazgos en `audit.log`
 
@@ -56,4 +56,4 @@ También una aplicación puede lanzar herramientas externas por una función leg
 - No incluye solicitudes HTTP para vincular un comando con una petición.
 - No muestra códigos de salida ni resultados: ejecutar `curl` o `wget` no prueba que la conexión funcionara.
 - No registra cambios de archivos, persistencia ni contenido transferido.
-- Solo cubre de 09:40:01
+- Solo cubre de 09:40:01 a 09:49:00 UTC del 27/10/2026 (menos de 10 minutos): sin retención histórica ni línea base para saber qué es normal.
